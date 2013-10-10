@@ -7,6 +7,5 @@ module ApplicationHelper
     else
       "#{base_title} | #{page_title}"
     end
-    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
